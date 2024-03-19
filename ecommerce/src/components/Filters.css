@@ -1,0 +1,21 @@
+.filters{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 5px 35px;
+    padding: 0px 30px;
+    font-weight: 700;
+}
+@media (max-width: 745px) {
+    .filters{
+        justify-content: center;
+    }
+}
+
+.filters > div {
+    display: flex;
+    gap: 1rem;
+}
+
